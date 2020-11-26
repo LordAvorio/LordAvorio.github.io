@@ -1,0 +1,313 @@
+/* * Color Theme Swatches in Hex */
+/* .Wide-banner-with-blue-sky-and-white-clouds.-1-hex { color: #0367A6; }
+.Wide-banner-with-blue-sky-and-white-clouds.-2-hex { color: #2182BF; }
+.Wide-banner-with-blue-sky-and-white-clouds.-3-hex { color: #4B93BF; }
+.Wide-banner-with-blue-sky-and-white-clouds.-4-hex { color: #5EA4BF; }
+.Wide-banner-with-blue-sky-and-white-clouds.-5-hex { color: #F2F2F2; } */ 
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #F8F9FB !important;
+}
+
+p{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+/* ============================ NAVBAR REGION ============================ */
+
+.allNavbar{
+    background-color: white !important;
+    padding-bottom: 10px !important;
+}
+
+.isiNavbar{
+    margin-left: 55%;
+}
+
+.columnNav{
+    margin-right: 30px;
+
+}
+
+.propertyNav{
+    font-weight: 1000;
+    color: black !important;
+}
+
+.propertyNav:hover{
+    padding: 3%;
+    color: black !important;
+    border-bottom: 3px solid #27A4F2;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+/* ======================================================================= */
+
+
+/* ============================ JUMBOTRON REGION ============================ */
+
+.profileGambar{
+    padding-left: 80px !important;
+}
+
+
+.textProfile{
+    font-weight: bolder !important;
+    font-size: 70px !important;
+}
+
+.quotesProfile{
+    font-weight: 600 !important;
+}
+
+/* ======================================================================= */
+
+/* ============================ About Me REGION ============================ */
+#headerAboutMe{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: 0px 0px !important;
+}
+
+#aboutMeTitle{
+    font-family: 'Indie Flower', cursive;
+    color:white;
+    font-weight: bolder !important;
+    font-size: 50px !important;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#aboutmeTextLayout{
+    padding-top: 80px;
+    padding-left: 10%;
+}
+
+.aboutmeText{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder !important;
+    font-size: 28px !important;
+    color: white;
+    letter-spacing: 3px;
+}
+
+
+
+#headerEducation{
+    margin-top: 70px;
+    margin-bottom: 0px;
+    padding: 0px 0px !important;
+}
+
+#educationTitle{
+    font-family: 'Indie Flower', cursive;
+    color:white;
+    font-weight: bolder !important;
+    font-size: 50px !important;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.educationLayout{
+    padding: 5% 8%;
+}
+
+.educationRow{
+    padding-left: 100px;
+}
+
+.educationArticle{
+    padding: 10% 0px;
+}
+
+.educationText{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder !important;
+    font-size: 40px !important;
+    color: white;
+    letter-spacing: 3px;
+}
+
+/* ======================================================================= */
+
+
+/* ============================ About Me Skills ============================ */
+
+#headerSkill{
+    padding: 0px 0px !important;
+}
+
+#skillTitle{
+    font-weight: bolder !important;
+    font-size: 50px !important;
+    text-align: center;
+}
+
+#skillTitleParagraph{
+    font-weight: bolder !important;
+    font-size: 25px !important;
+    text-align: center;
+}
+
+.cardSkill{
+    padding:0px 3.5% !important;
+}
+
+.layoutIconSkill{
+    background-color: white;
+    padding: 25%;
+    padding-bottom: 30%;
+    text-align: center;
+    box-shadow: 5px 5px 10px #8C8C8B;
+
+}
+
+.layoutTextSkill{
+    text-align: center;
+    background-color: #27A4F2;
+    box-shadow: 5px 5px 10px #8C8C8B;
+}
+
+.iconSkill{
+    color: #27A4F2;
+    font-size: 350%;
+}
+
+.textSkill{
+    color: white;
+    padding: 10% 0 !important;
+    font-size: 25px;
+    font-weight: bolder !important;
+    letter-spacing: 2px;
+}
+
+.cardSkill:hover .layoutIconSkill{
+    background-color: #27A4F2;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.cardSkill:hover .layoutTextSkill{
+    background-color: white;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.cardSkill:hover .iconSkill{
+    color: white;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.cardSkill:hover .textSkill{
+    color: #27A4F2;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+
+.headerSkillProgress{
+    padding: 5%;
+    background-color: #27A4F2;
+    border-radius: 20px 0 0 0;
+}
+
+.skillProgressLayout{
+    padding: 5%;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+}
+
+.textHeaderSkillProgress{
+    text-align: center;
+    color: #F8F9FB;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.imageSkillProgress{
+    background-color: #27A4F2;
+    padding: 3% 15%;
+    border-radius: 0 0 0 20px;
+
+}
+
+.textSkillProgress{
+    color: #27A4F2;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: 10px !important;
+}
+
+.progress{
+    height: 40px !important;
+    margin-bottom: 27px;
+}
+
+.progress-bar{
+    background-color: #27A4F2 !important;
+}
+
+
+/* ======================================================================= */
+
+
+/* ============================ Experience ============================ */
+.boxCardExperience{
+    background-color: white;
+    margin: 0% 9% !important;
+    border-radius: 5px;
+}
+
+
+#headerExperience{
+    padding: 0px 0px !important;
+    padding-bottom: 5% !important;
+}
+
+.layoutTitleExperienceBox{
+    padding-top: 3%;
+}
+
+.layoutSecondaryTitleExperienceBox{
+    padding-bottom: 2%;
+}
+
+.layoutDateExperienceBox{
+    padding-top: 8%;
+    padding-right: 15% !important;
+    text-align: right;
+}
+
+.layoutTextParagraphExperience{
+    padding-bottom: 4%;
+}
+
+.titleExperienceParagraph{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #27A4F2;
+}
+
+.secondaryTitleExperience{
+    font-size: 20px;
+    font-weight: bold;
+    color: #8C8C8B;
+}
+
+.dateExperience{
+    color: #27A4F2;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/* ======================================================================= */
